@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FE7A1B72-C5B7-4D7C-BB7D-76384D4DE8E1}") = "Moveable_resizeable_userControl", "..\..\..\..\..\Users\joachim.ekstrom\source\repos\Moveable_resizeable_userControl\Moveable_resizeable_userControl.hmiproj", "{8F32B97A-09EC-4DE3-9BF6-99F1D5130A11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TwinCAT HMI = Debug|TwinCAT HMI
+		Release|TwinCAT HMI = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F32B97A-09EC-4DE3-9BF6-99F1D5130A11}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{8F32B97A-09EC-4DE3-9BF6-99F1D5130A11}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{8F32B97A-09EC-4DE3-9BF6-99F1D5130A11}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{8F32B97A-09EC-4DE3-9BF6-99F1D5130A11}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96324385-421F-4C09-87F6-53916ED0A04A}
+	EndGlobalSection
+EndGlobal
