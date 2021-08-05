@@ -1,0 +1,40 @@
+﻿{
+  "parameters": [
+    {
+      "name": "data-tchmi-pvisibility",
+      "displayName": "PVisibility",
+      "visible": true,
+      "type": "tchmi:framework#/definitions/Visibility",
+      "category": "",
+      "description": "",
+      "defaultValue": false,
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "PVisibility",
+      "propertySetterName": "setPVisibility",
+      "propertyGetterName": "getPVisibility",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-name",
+      "displayName": "name",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "name",
+      "propertySetterName": "setName",
+      "propertyGetterName": "getName",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "Packages/Beckhoff.TwinCAT.HMI.Framework.12.746.3/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

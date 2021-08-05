@@ -8,6 +8,14 @@
       "frameworkUserControlConfig": "Check_visibility.usercontrol.json",
       "type": "object",
       "id": "tchmi:project#/definitions/Check_visibility"
+    },
+    "Check_visibility_noJquery": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "Check_visibility_noJquery.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/Check_visibility_noJquery"
     }
   }
 }

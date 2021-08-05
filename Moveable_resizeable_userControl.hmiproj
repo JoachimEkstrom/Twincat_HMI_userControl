@@ -131,6 +131,13 @@
     <Content Include=".eslintrc.json">
       <Visible>false</Visible>
     </Content>
+    <Content Include="Check_visibility_noJquery.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Check_visibility_noJquery.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Check_visibility_noJquery.usercontrol</DependentUpon>
+    </Content>
     <Content Include="Check_visibility.usercontrol">
       <SubType>Content</SubType>
     </Content>

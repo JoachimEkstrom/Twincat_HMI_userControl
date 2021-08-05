@@ -1,0 +1,148 @@
+﻿<div id="Check_visibility_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-creator-viewport-width="320" data-tchmi-creator-viewport-height="240" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="%" data-tchmi-max-height-unit="%" data-tchmi-min-width-unit="%" data-tchmi-min-height-unit="%" data-tchmi-height-mode="Value" data-tchmi-width-mode="Value" data-tchmi-visibility="Visible">
+
+    <div id="TcHmiButton_9" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="3.1" data-tchmi-left-unit="%" data-tchmi-text="Red" data-tchmi-top="4.2" data-tchmi-top-unit="%" data-tchmi-width="30" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-min-width="10" data-tchmi-min-height="10" data-tchmi-width-mode="Value" data-tchmi-height-mode="Value" data-tchmi-max-width-unit="%" data-tchmi-max-height-unit="%" data-tchmi-min-width-unit="%" data-tchmi-min-height-unit="%">
+
+
+        <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+            [
+              {
+                "event": "TcHmiButton_9.onPressed",
+                "actions": [
+                  {
+                    "objectType": "WriteToSymbol",
+                    "active": true,
+                    "symbolExpression": "%ctrl%TcHmiRectangle_1::FillColor%/ctrl%",
+                    "value": {
+                      "objectType": "StaticValue",
+                      "valueType": "tchmi:framework#/definitions/Color",
+                      "value": {
+                        "color": "rgba(255, 0, 0, 1)"
+                      }
+                    },
+                    "asyncWait": true
+                  }
+                ]
+              }
+            ]
+        </script>
+    </div>
+
+    <div id="TcHmiButton_10" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="36.3" data-tchmi-left-unit="%" data-tchmi-text="Green" data-tchmi-top="4.2" data-tchmi-top-unit="%" data-tchmi-width="30" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-min-height-unit="%" data-tchmi-min-width-unit="%" data-tchmi-max-height-unit="%" data-tchmi-max-width-unit="%">
+
+
+        <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+            [
+              {
+                "event": "TcHmiButton_10.onPressed",
+                "actions": [
+                  {
+                    "objectType": "WriteToSymbol",
+                    "active": true,
+                    "symbolExpression": "%ctrl%TcHmiRectangle_1::FillColor%/ctrl%",
+                    "value": {
+                      "objectType": "StaticValue",
+                      "valueType": "tchmi:framework#/definitions/Color",
+                      "value": {
+                        "color": "rgba(0, 255, 40, 1)"
+                      }
+                    },
+                    "asyncWait": true
+                  }
+                ]
+              }
+            ]
+        </script>
+    </div>
+
+    <div id="TcHmiButton_11" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="69.4" data-tchmi-left-unit="%" data-tchmi-text="Hide" data-tchmi-top="4.2" data-tchmi-top-unit="%" data-tchmi-width="30" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="%" data-tchmi-max-height-unit="%" data-tchmi-min-width-unit="%" data-tchmi-min-height-unit="%">
+
+
+        <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+            [
+              {
+                "event": "TcHmiButton_11.onPressed",
+                "actions": [
+                  {
+                    "objectType": "WriteToSymbol",
+                    "active": true,
+                    "symbolExpression": "%pp%PVisibility%/pp%",
+                    "value": {
+                      "objectType": "StaticValue",
+                      "valueType": "tchmi:framework#/definitions/Visibility",
+                      "value": "Hidden"
+                    },
+                    "asyncWait": true
+                  }
+                ]
+              }
+            ]
+        </script>
+    </div>
+
+    <div id="TcHmiRectangle_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="50.0" data-tchmi-height-unit="%" data-tchmi-left="16.5" data-tchmi-left-unit="%" data-tchmi-top="29.3" data-tchmi-top-unit="%" data-tchmi-width="69.3" data-tchmi-width-unit="%" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-width-mode="Value" data-tchmi-height-mode="Value" data-tchmi-min-width="20" data-tchmi-min-height="50" data-tchmi-max-width-unit="%" data-tchmi-max-height-unit="%" data-tchmi-min-width-unit="%" data-tchmi-min-height-unit="%" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0">
+
+
+        <script data-tchmi-target-attribute="data-tchmi-fill-color" type="application/json">
+            {
+              "color": "rgba(255, 0, 0, 1)"
+            }
+        </script>
+    </div>
+
+
+    <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+        {
+          "color": "rgba(62, 161, 180, 1)"
+        }
+    </script>
+    <div id="TcHmiButton_12" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="11.0" data-tchmi-height-unit="%" data-tchmi-left="3.0" data-tchmi-left-unit="%" data-tchmi-text="Move popup" data-tchmi-top="86.0" data-tchmi-top-unit="%" data-tchmi-width="26.6" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px">
+
+
+        <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+            [
+              {
+                "event": "TcHmiButton_12.onMouseDown",
+                "actions": [
+                  {
+                    "objectType": "JavaScript",
+                    "active": true,
+                    "sourceLines": [
+                      "// Make the DIV element draggable:\nvar name = TcHmi.Symbol.readEx('%pp%name%/pp%');\nvar elmnt = document.getElementById(name)\ndragElement(elmnt);\n\nfunction dragElement(elmnt) {\n  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;\n    // otherwise, move the DIV from anywhere inside the DIV:\n    elmnt.onmousedown = dragMouseDown;\n  }\n\n  function dragMouseDown(e) {\n    e = e || window.event;\n    e.preventDefault();\n    // get the mouse cursor position at startup:\n    pos3 = e.clientX;\n    pos4 = e.clientY;\n    document.onmouseup = closeDragElement;\n    // call a function whenever the cursor moves:\n    document.onmousemove = elementDrag;\n  }\n\n  function elementDrag(e) {\n    e = e || window.event;\n    e.preventDefault();\n    // calculate the new cursor position:\n    pos1 = pos3 - e.clientX;\n    pos2 = pos4 - e.clientY;\n    pos3 = e.clientX;\n    pos4 = e.clientY;\n    // set the element's new position:\n    elmnt.style.top = (elmnt.offsetTop - pos2) + \"px\";\n    elmnt.style.left = (elmnt.offsetLeft - pos1) + \"px\";\n  }\n\n  function closeDragElement() {\n    // stop moving when mouse button is released:\n    document.onmouseup = null;\n    document.onmousemove = null;\n    elmnt.onmousedown = null;\n  }"
+                    ],
+                    "injectContextObject": false,
+                    "asyncWait": true,
+                    "waitMode": "Synchronous"
+                  }
+                ]
+              }
+            ]
+        </script>
+    </div>
+
+<div id="TcHmiRectangle_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="3.2" data-tchmi-height-unit="%" data-tchmi-left="96.2" data-tchmi-left-unit="%" data-tchmi-top="96.9" data-tchmi-top-unit="%" data-tchmi-width="4.2" data-tchmi-width-unit="%" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-stroke-thickness-unit="px" data-tchmi-background-image-width-unit="px" data-tchmi-background-image-height-unit="px" data-tchmi-radius-x-unit="px" data-tchmi-radius-y-unit="px" data-tchmi-visibility="Hidden">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiRectangle_2.onMouseDown",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "// Query the element\nvar name = TcHmi.Symbol.readEx('%pp%name%/pp%');\nvar ele = document.getElementById(name)\n\n// The current position of mouse\nlet x = 0;\nlet y = 0;\n\n// The dimension of the element\nlet w = 0;\nlet h = 0;\n\n\n// Handle the mousedown event\n// that's triggered when user drags the resizer\nconst mouseDownHandler = function (e) {\n    // Get the current mouse position\n    x = e.clientX;\n    y = e.clientY;\n\n    // Calculate the dimension of element\n    const styles = window.getComputedStyle(ele);\n    w = parseInt(styles.width, 10);\n    h = parseInt(styles.height, 10);\n\n    // Attach the listeners to `document`\n    document.addEventListener('mousemove', mouseMoveHandler);\n    document.addEventListener('mouseup', mouseUpHandler);\n};\n\nconst mouseMoveHandler = function (e) {\n    // How far the mouse has been moved\n    const dx = e.clientX - x;\n    const dy = e.clientY - y;\n\n    // Adjust the dimension of element\n    ele.style.width = `${w + dx}px`;\n    ele.style.height = `${h + dy}px`;\n};\n\nconst mouseUpHandler = function () {\n    // Remove the handlers of `mousemove` and `mouseup`\n    document.removeEventListener('mousemove', mouseMoveHandler);\n    document.removeEventListener('mouseup', mouseUpHandler);\n    document.removeEventListener('mousedown', mouseDownHandler);\n    ele.onmousedown = null;\n};\n\n\nfunction resizeElement(ele) {\n    // otherwise, move the DIV from anywhere inside the DIV:\n    ele.onmousedown = mouseDownHandler;\n  }\n  resizeElement(ele);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+
+
+</div>
+
+</div>

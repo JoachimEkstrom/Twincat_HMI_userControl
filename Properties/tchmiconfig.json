@@ -48,6 +48,9 @@
   "userControls": [
     {
       "url": "Check_visibility.usercontrol"
+    },
+    {
+      "url": "Check_visibility_noJquery.usercontrol"
     }
   ],
   "content": [],
@@ -72,8 +75,8 @@
   "disableLoadingOptimization": false,
   "creatorSettings": {
     "viewport": {
-      "defaultWidth": 800,
-      "defaultHeight": 600
+      "defaultWidth": 1080,
+      "defaultHeight": 1920
     }
   },
   "binding": {

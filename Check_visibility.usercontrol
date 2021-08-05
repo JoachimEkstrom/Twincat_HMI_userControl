@@ -69,7 +69,7 @@
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
-          "value": "Collapsed"
+          "value": "Hidden"
         },
         "asyncWait": true
       }

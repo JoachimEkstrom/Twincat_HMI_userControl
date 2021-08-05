@@ -1,26 +1,26 @@
-﻿<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-mode="Content" data-tchmi-min-width="100" data-tchmi-min-width-unit="%" data-tchmi-height-mode="Content" data-tchmi-min-height="100" data-tchmi-min-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px">
+﻿<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-mode="Content" data-tchmi-min-width="100" data-tchmi-min-width-unit="%" data-tchmi-height-mode="Content" data-tchmi-min-height="100" data-tchmi-min-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px" data-tchmi-creator-viewport-width="1920" data-tchmi-creator-viewport-height="1080">
   <div id="ViewDesktopBeckhoffLogo" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-src="Images/Beckhoff_Logo.svg" data-tchmi-left="20" data-tchmi-top="20" data-tchmi-width="194" data-tchmi-height="57">
 
   </div>
-<div id="Desktop_1" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-mode="Content" data-tchmi-min-width-unit="%" data-tchmi-height-mode="Content" data-tchmi-min-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-max-width="800" data-tchmi-min-width="100" data-tchmi-min-height="100" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px">
+<div id="Desktop_1" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-mode="Content" data-tchmi-min-width-unit="%" data-tchmi-height-mode="Content" data-tchmi-min-height-unit="%" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-height-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-min-width="100" data-tchmi-min-height="100">
   <div id="ViewDesktopBeckhoffLogo_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-src="Images/Beckhoff_Logo.svg" data-tchmi-left="20" data-tchmi-top="20" data-tchmi-width="194" data-tchmi-height="57">
 
   </div>
 
 </div>
 
-<div id="TcHmiButton_7" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="7.5" data-tchmi-height-unit="%" data-tchmi-left="34.6" data-tchmi-left-unit="%" data-tchmi-text="Show movable object" data-tchmi-top="89.2" data-tchmi-top-unit="%" data-tchmi-width="18.1" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px">
+<div id="TcHmiButton_8" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="7.5" data-tchmi-height-unit="%" data-tchmi-left="9.6" data-tchmi-left-unit="%" data-tchmi-text="Show movable object1" data-tchmi-top="52.2" data-tchmi-top-unit="%" data-tchmi-width="18.1" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-visibility="Visible">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "TcHmiButton_7.onPressed",
+    "event": "TcHmiButton_8.onPressed",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%draggable::PVisibility%/ctrl%",
+        "symbolExpression": "%ctrl%draggable_1::PVisibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -34,31 +34,36 @@
 </script>
 </div>
 
-<div id="draggable" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="19.7" data-tchmi-height-unit="%" data-tchmi-left="33.2" data-tchmi-left-unit="%" data-tchmi-pvisibility="False" data-tchmi-target-user-control="Check_visibility.usercontrol" data-tchmi-top="22.0" data-tchmi-top-unit="%" data-tchmi-width="20.5" data-tchmi-width-unit="%" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-right-unit="%" data-tchmi-bottom-unit="%" data-tchmi-visibility="%ctrl%draggable::PVisibility%/ctrl%">
+<div id="draggable_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="243" data-tchmi-height-unit="px" data-tchmi-left="196" data-tchmi-left-unit="px" data-tchmi-pvisibility="False" data-tchmi-target-user-control="Check_visibility_noJquery.usercontrol" data-tchmi-top="109" data-tchmi-top-unit="px" data-tchmi-width="305" data-tchmi-width-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-name="draggable_1" data-tchmi-visibility="%ctrl%draggable_1::PVisibility%/ctrl%">
 
 
 
 
 
+</div>
 
+<div id="drag" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="243" data-tchmi-height-unit="px" data-tchmi-left="603" data-tchmi-left-unit="px" data-tchmi-pvisibility="False" data-tchmi-target-user-control="Check_visibility_noJquery.usercontrol" data-tchmi-top="109" data-tchmi-top-unit="px" data-tchmi-width="305" data-tchmi-width-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-name="drag" data-tchmi-visibility="%ctrl%drag::PVisibility%/ctrl%" data-tchmi-background-image-width-unit="px" data-tchmi-background-image-height-unit="px">
 
+</div>
 
+<div id="TcHmiButton_13" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="7.5" data-tchmi-height-unit="%" data-tchmi-left="32.5" data-tchmi-left-unit="%" data-tchmi-text="Show movable object2" data-tchmi-top="51.7" data-tchmi-top-unit="%" data-tchmi-width="18.1" data-tchmi-width-unit="%" data-tchmi-word-wrap="True" data-tchmi-right-unit="px" data-tchmi-bottom-unit="px" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-visibility="Visible">
 
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "draggable.onMouseDown",
+    "event": "TcHmiButton_13.onPressed",
     "actions": [
       {
-        "objectType": "JavaScript",
+        "objectType": "WriteToSymbol",
         "active": true,
-        "sourceLines": [
-          "  $( function() {\n  \t$( \"#draggable\" ).draggable();\n  } );\n    $( function() {\n    $( \"#draggable\" ).resizable();\n  } );"
-        ],
-        "injectContextObject": false,
-        "asyncWait": true,
-        "waitMode": "Synchronous"
+        "symbolExpression": "%ctrl%drag::PVisibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
       }
     ]
   }
