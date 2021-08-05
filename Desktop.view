@@ -34,7 +34,7 @@
 </script>
 </div>
 
-<div id="draggable" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="19.7" data-tchmi-height-unit="%" data-tchmi-left="33.8" data-tchmi-left-unit="%" data-tchmi-pvisibility="False" data-tchmi-target-user-control="Check_visibility.usercontrol" data-tchmi-top="22.0" data-tchmi-top-unit="%" data-tchmi-width="20.5" data-tchmi-width-unit="%" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-right-unit="%" data-tchmi-bottom-unit="%" data-tchmi-visibility="%ctrl%draggable::PVisibility%/ctrl%">
+<div id="draggable" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="19.7" data-tchmi-height-unit="%" data-tchmi-left="33.2" data-tchmi-left-unit="%" data-tchmi-pvisibility="False" data-tchmi-target-user-control="Check_visibility.usercontrol" data-tchmi-top="22.0" data-tchmi-top-unit="%" data-tchmi-width="20.5" data-tchmi-width-unit="%" data-tchmi-opacity="1" data-tchmi-grid-column-index="0" data-tchmi-grid-row-index="0" data-tchmi-max-width-unit="px" data-tchmi-max-height-unit="px" data-tchmi-min-width-unit="px" data-tchmi-min-height-unit="px" data-tchmi-right-unit="%" data-tchmi-bottom-unit="%" data-tchmi-visibility="%ctrl%draggable::PVisibility%/ctrl%">
 
 
 
